@@ -31,7 +31,7 @@ function Bot() {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="relative bg-white text-black rounded-lg p-2 mb-1 shadow-lg">
-        <h1 className="text-sm">Consulter maintenant </h1>
+        <h1 className="text-sm">Consultez maintenant </h1>
         <div className="absolute top-1/2 transform -translate-y-1/2 right-0 w-0 h-0 border-t-8 border-t-transparent border-b-8 border-b-transparent border-l-8 border-l-white"></div>
       </div>
       <div className="flex space-x-2">

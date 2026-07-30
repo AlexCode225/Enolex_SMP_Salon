@@ -34,26 +34,36 @@ export default function Navbar() {
               Services
             </button>
             {servicesOpen && (
-              <div className="absolute mt-2 bg-black/80 rounded-md shadow-lg py-2 w-48">
-                <Link
-                  href="/Services/smp"
-                  className="block px-4 py-2 text-white text-sm hover:bg-pink-600 transition"
-                >
-                  Micropigmentation capillaire
-                </Link>
-                <Link
-                  href="/Services/soins"
-                  className="block px-4 py-2 text-white text-sm hover:bg-pink-600 transition"
-                >
-                  Soins du cuir chevelu
-                </Link>
-                <Link
-                  href="/Services/conseils"
-                  className="block px-4 py-2 text-white text-sm hover:bg-pink-600 transition"
-                >
-                  Conseils personnalisés
-                </Link>
-              </div>
+           
+           <div className="absolute mt-2 bg-black/80 rounded-md shadow-lg py-2 w-56 font-plusjakarta">
+  <Link
+    href="/Services/smp"
+    className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
+  >
+    MPC-Micropigmentation Capillaire 
+  </Link>
+  <Link
+    href="/Services/soins"
+    className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
+  >
+    Camouflage Cellulite & Cicatrices
+  </Link>
+  <Link
+    href="/Services/lipblush"
+    className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
+  >
+    Lip Blush (Dermopigmentation des lèvres)
+  </Link>
+
+  <Link
+    href="/Services/lipblush"
+    className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
+  >
+  politique de réservation
+  </Link>
+</div>
+
+             
             )}
           </div>
 

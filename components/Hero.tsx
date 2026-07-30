@@ -9,7 +9,7 @@ function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % HeroGetstarted.length);
-    }, 4000); // change every 4s
+    }, 4000); 
     return () => clearInterval(interval);
   }, []);
 
@@ -63,8 +63,6 @@ function Hero() {
     </Link>
   </div>
 
-
-       
       </div>
 
       {/* Indicators for images sliding  */}
