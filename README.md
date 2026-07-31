@@ -15,7 +15,7 @@ Our store  is located in Abidjan, Cote D'Ivoire and specializes in **SMP treatme
 [![Vercel](https://skillicons.dev/icons?i=vercel)](https://vercel.com)
 
 ------------------------------------------------------------------------------------------
-# Enolex Beauty Store 💎
+# Enolex SMP SALON 💎
 Micropigmentation Capillaire (SMP) & Studio de Tatouage
 
 Ce dépôt contient le code source du site web **Enolex Beauty Store**, développé avec [Next.js](https://nextjs.org).  
