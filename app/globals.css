@@ -40,3 +40,42 @@ body {
 .animate-[neonBorder_6s_linear_infinite] {
   background-size: 200% 200%;
 }
+
+
+/* Utility  animation for texts */
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Utility class for animation */
+.animate-slideDown {
+  animation: slideDown 2s ease-out forwards;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Utility class for animation for services */
+.animate-slideDown {
+  animation: slideDown 1.5s ease-out forwards;
+}
+.animate-float-2 {
+  animation: float 3s ease-in-out infinite;
+}
+.animate-float {
+  animation: float 4s ease-in-out inherit;
+}

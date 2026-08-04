@@ -34,39 +34,43 @@ const servicesData = [
 const Services = () => {
   return (
     <div className="min-h-screen bg-black text-white px-6 sm:px-12 py-16 font-plusjakarta">
-      <h2 className="text-center text-4xl sm:text-5xl font-extrabold mb-12 tracking-wide">
-        Nos Services
-      </h2>
+   <h2 className="text-center text-4xl sm:text-5xl font-extrabold mb-12 tracking-wide animate-slideDown animate-float-2">
+  Nos Services
+</h2>
 
-      <div className="grid gap-10 sm:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {servicesData.map((service, index) => (
-          <div
-            key={index}
-            className="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-pink-500/40 transition-all duration-300"
-          >
-            <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
-            <p className="text-gray-300 mb-6">{service.description}</p>
-            <div className="flex gap-4">
-              <div className="flex-1">
-                <p className="text-sm text-gray-400 mb-2">Avant</p>
-                <img
-                  src={service.before}
-                  alt={`${service.title} avant`}
-                  className="w-full rounded-lg shadow-md"
-                />
-              </div>
-              <div className="flex-1">
-                <p className="text-sm text-gray-400 mb-2">Après</p>
-                <img
-                  src={service.after}
-                  alt={`${service.title} après`}
-                  className="w-full rounded-lg shadow-md"
-                />
-              </div>
-            </div>
-          </div>
-        ))}
+<div className="grid gap-10 sm:gap-12 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+  {servicesData.map((service, index) => (
+    <div
+      key={index}
+      className="bg-gray-900 rounded-xl p-6 shadow-lg hover:shadow-pink-500/40 transition-all duration-300 animate-slideDown "
+      style={{ animationDelay: `${index * 0.1}s` }}
+    >
+      <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
+      <p className="text-gray-300 mb-6">{service.description}</p>
+      <div className="flex gap-4">
+        <div className="flex-1">
+          <p className="text-sm text-gray-400 mb-2">Avant</p>
+          <img
+            src={service.before}
+            alt={`${service.title} avant`}
+            className="w-full rounded-lg shadow-md animate-slideDown animate-float"
+            style={{ animationDelay: "0.1s" }}
+          />
+        </div>
+        <div className="flex-1">
+          <p className="text-sm text-gray-400 mb-2">Après</p>
+          <img
+            src={service.after}
+            alt={`${service.title} après`}
+            className="w-full rounded-lg shadow-md animate-slideDown animate-float"
+            style={{ animationDelay: "0.1s" }}
+          />
+        </div>
       </div>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 };

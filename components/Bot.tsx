@@ -17,7 +17,7 @@ function Bot() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setVisible(true);
-    }, 3000); // Show bot after 3 seconds
+    }, 5000); // Show bot after 5 seconds
 
     return () => clearTimeout(timer);
   }, []);

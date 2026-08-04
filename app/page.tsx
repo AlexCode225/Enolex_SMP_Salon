@@ -6,6 +6,7 @@ import Bot from "@/components/Bot";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import { ButtonTop } from "@/components/store/ButtonTop";
+import Footer from "@/components/Footer";
 
 export default function Page() {
   return (
@@ -13,6 +14,7 @@ export default function Page() {
       <Navbar />
       <Hero />
       <Services/>
+      <Footer/>
       <Bot />
       <ButtonTop/>
     </div>
