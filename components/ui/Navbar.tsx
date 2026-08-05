@@ -87,8 +87,9 @@ export default function Navbar() {
         {/* CTA */}
         <div className="flex items-center space-x-4">
           <Link
-            href="#Booking"
-            className="text-black border border-white px-6 py-2 rounded-full text-sm uppercase tracking-widest bg-white hover:bg-pink-300 hover:text-black transition-all duration-600"
+            href=" #Booking"
+        className="ml-2 mr-2 text-white border border-pink-50 px-6 py-2 rounded-full text-sm uppercase tracking-widest bg-gradient-to-l from-black via-gray-800 to-gray-950 hover:from-gray-800 hover:to-gray-950 transition-all duration-500"
+
           >
             Réserver
           </Link>

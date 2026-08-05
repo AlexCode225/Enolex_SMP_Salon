@@ -43,7 +43,7 @@ function Hero() {
         >
           <Link
             href="/Services"
-            className="inline-block bg-black hover:bg-pink-400 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center"
+            className="inline-block bg-black hover:bg-pink-400 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center animate-pulse"
           >
             Consultez Maintenant 
           </Link>

@@ -75,7 +75,22 @@ body {
 }
 .animate-float-2 {
   animation: float 3s ease-in-out infinite;
-}
+} 
 .animate-float {
   animation: float 4s ease-in-out inherit;
+}
+
+/* Utility class for 3d animation */
+.hero-3d-layout {
+  @apply xl:w-[70%] w-full h-full min-h-[50vh] absolute xl:-top-20
+}
+.Thehero-3d-layout {
+  width: 600px;       
+  height: 400px;      
+  margin-left: auto;  /* pushes it to the right */
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
