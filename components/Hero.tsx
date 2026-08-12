@@ -29,11 +29,11 @@ function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl px-6 sm:px-12">
-      <h1 className="text-white text-5xl sm:text-7xl md:text-8xl font-extrabold leading-tight drop-shadow-lg animate-slideDown">
-  Bienvenue chez Enolex SMP 
+      <h1  className="text-white text-5xl sm:text-7xl md:text-8xl font-extrabold leading-tight drop-shadow-lg animate-slideDown">
+  Bienvenue chez Enolex SMP  #Côte d'Ivoire
 </h1>
 
-<h2 className="text-gray-400 text-2xl sm:text-5xl md:text-6xl font-semibold drop-shadow-lg mt-5 animate-slideDown" style={{ animationDelay: "0.5s" }}>
+<h2 className="text-gray-400 text-xxl sm:text-3xl md:text-4xl font-montserrat  drop-shadow-lg mt-5 animate-slideDown" style={{ animationDelay: "0.5s" }}>
   vous redonner confiance avec des services de qualité
 </h2>
 
@@ -42,15 +42,15 @@ function Hero() {
           className="mt-14 flex flex-col sm:flex-row sm:justify-center sm:space-x-10 space-y-6 sm:space-y-0"
         >
           <Link
-            href="/Services"
-            className="inline-block bg-black hover:bg-pink-400 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center animate-pulse"
+            href="/Quote"
+            className=" inline-block duration-500 bg-pink-500 hover:bg-pink-700 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center "
           >
-            Consultez Maintenant 
+        Commence Ton Aventure
           </Link>
 
           <Link
             href="/Services"
-            className="inline-block bg-black hover:bg-pink-400 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center"
+            className="inline-block  border-2 bg-transparent hover:bg-pink-400 text-white text-2xl sm:text-3xl px-12 py-6 rounded-4xl shadow-xl transition text-center"
           >
             Nos Services
           </Link>

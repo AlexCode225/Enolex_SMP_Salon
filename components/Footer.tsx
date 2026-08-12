@@ -9,7 +9,17 @@ function Footer() {
         
         {/* Brand / About */}
         <div>
-          <h2 className="text-black text-3xl font-bold mb-6">Enolex SMP</h2>
+          
+          
+ {/* Logo */}
+       <div  className="flex items-center gap-3">
+  <img 
+    src="/images/enolexSMPLogo1.png" 
+    alt="Enolex SMP" 
+    className="h-14 mb-5 rounded-sm w-auto object-contain" 
+  />
+</div>
+
           <p className="text-lg leading-relaxed">
             Spécialiste en micropigmentation capillaire et distinct soins esthétiques.
             Notre mission est  de vous redonner confiance avec des services de qualité.

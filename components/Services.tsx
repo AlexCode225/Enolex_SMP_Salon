@@ -33,20 +33,27 @@ const servicesData = [
 
 const Services = () => {
   return (
+    
     <div className="min-h-screen bg-black text-white px-6 sm:px-12 py-16 font-plusjakarta">
+   
+   <section id="Expectation" className=" max-w-full  bg-white">
+<div className="font-serif">
+ <h1 className="text-black  text-center">
+  Le <span className=" text-xl text-pink-500 "> <i> Processus</i> </span> du PMC
+  </h1> 
+</div>
+</section>
+   
+   
+   
+   
+   
+   
+   
+   <section id="BeforeAter" className="">
    <h2 className="text-center text-4xl sm:text-5xl font-extrabold mb-12 tracking-wide animate-slideDown animate-float-2">
   Nos Services
 </h2>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -82,6 +89,11 @@ const Services = () => {
     </div>
   ))}
 </div>
+
+
+</section>
+
+
 
     </div>
 

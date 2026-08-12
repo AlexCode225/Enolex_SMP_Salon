@@ -10,14 +10,19 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 sm:px-12 flex items-center justify-between h-20">
         {/* Logo */}
-        <div className="text-white font-bold text-2xl tracking-widest uppercase">
-          Enolex SMP
-        </div>
+       <div className="flex items-center gap-3">
+  <img 
+    src="/images/enolexSMPLogo1.png" 
+    alt="Enolex SMP" 
+    className="h-14  rounded-sm w-auto object-contain" 
+  />
+ 
+</div>
 
         {/* Navigation links (desktop) */}
         <div className="hidden md:flex space-x-12 items-center">
           <Link
-            href="#About"
+            href="/pages/AboutUS"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400 transition-colors duration-300"
           >
             À propos
@@ -35,7 +40,7 @@ export default function Navbar() {
             {servicesOpen && (
               <div className="absolute mt-2 bg-black/80 rounded-md shadow-lg py-2 w-56 font-plusjakarta">
                 <Link
-                  href="/Services/smp"
+                  href="/pages/TheServices/"
                   className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
                 >
                   MPC-Micropigmentation Capillaire
@@ -60,7 +65,7 @@ export default function Navbar() {
                   Lip Blush (Dermopigmentation des lèvres)
                 </Link>
                 <Link
-                  href="/Services/lipblush"
+                  href="/pages/BookingPolicy"
                   className="block px-4 py-2 text-white text-base hover:bg-pink-600 transition"
                 >
                   Politique de réservation
@@ -70,17 +75,17 @@ export default function Navbar() {
           </div>
 
           <Link
-            href="#Formation"
+            href="/pages/Tarifs"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400 transition-colors duration-300"
           >
-            Formation
+          Nos Tarifs
           </Link>
 
           <Link
-            href="#Contact"
+            href="/pages/Contact"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400 transition-colors duration-300"
           >
-            Contact
+            Contact 
           </Link>
         </div>
 
@@ -138,25 +143,25 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="md:hidden flex flex-col items-center bg-black/65 py-4 space-y-4">
           <Link
-            href="#About"
+            href="/pages/AboutUS"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400"
           >
             À propos
           </Link>
           <Link
-            href="#Services"
+            href="/pages/TheServices/"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400"
           >
             Nos Services
           </Link>
           <Link
-            href="#Formation"
+            href="#Tarifs"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400"
           >
-            Nos Formations
+            Nos Tarifs
           </Link>
           <Link
-            href="#Contact"
+            href="/pages/Contact"
             className="text-white text-sm uppercase tracking-widest hover:text-pink-400"
           >
             Contact
